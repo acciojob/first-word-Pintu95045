@@ -1,8 +1,8 @@
 function firstWord(s) {
   // your code here
-  s.trim();
-  let word=s.split(" ");
-  return word[0];
+  s = s.trim(); // Remove leading and trailing spaces
+  let words = s.split(" "); // Split by spaces
+  return words[0];
 }
 
 // Do not change the code below
